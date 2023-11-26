@@ -1,0 +1,26 @@
+{
+  "name": "food-delivery-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "prebuild": "cd backend && npm install & cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "postbuild": "mv -f frontend/build backend/src/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18 <21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saikusuma23/fooddelivery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saikusuma23/fooddelivery/issues"
+  },
+  "homepage": "https://github.com/Saikusuma23/fooddelivery#readme",
+  "description": ""
+}
